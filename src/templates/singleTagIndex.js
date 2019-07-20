@@ -1,12 +1,11 @@
 import React from "react"
-// import { graphql, Link } from "gatsby"
-import { Container, Link } from "../components/UI-Kit"
+import { Container, Title, Link } from "../components/UI-Kit"
 
 const SingleTagTemplate = ({ _, pageContext }) => {
   const { posts, tagName } = pageContext
   return (
     <Container>
-      <h1>Posts about {tagName}</h1>
+      <Title>Posts about {tagName}</Title>
       <ul>
         {posts.map(({ frontmatter: { path, title } }) => (
           <li key={path}>

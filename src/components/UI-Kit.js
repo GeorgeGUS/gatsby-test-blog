@@ -7,11 +7,18 @@ export const CenteredContainer = styled.div`
   align-items: center;
   font-family: Avenir, Arial, sans-serif;
 `
+export const Container = styled.div`
+  font-family: Avenir, Arial, sans-serif;
+`
 export const Row = styled.div`
   margin-bottom: 1rem;
 `
-export const Container = styled.div`
-  font-family: Avenir, Arial, sans-serif;
+export const Title = styled.h1`
+  margin-bottom: 0;
+`
+export const Desc = styled.p`
+  margin-top: 0;
+  color: #888;
 `
 export const Link = styled(GatsbyLink)`
   padding: 0.5em 0;

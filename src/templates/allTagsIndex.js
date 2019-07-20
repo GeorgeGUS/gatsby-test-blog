@@ -1,12 +1,11 @@
 import React from "react"
-// import { graphql, Link } from "gatsby"
-import { Container, Link } from "../components/UI-Kit"
+import { Container, Title, Link } from "../components/UI-Kit"
 
 const AllTagsTemplate = ({ _, pageContext }) => {
   const { tags } = pageContext
   return (
     <Container>
-      <h1>All tags</h1>
+      <Title>All tags</Title>
       <ul>
         {tags.map((tagName, i) => (
           <li key={i}>

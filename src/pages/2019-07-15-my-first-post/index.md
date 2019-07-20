@@ -6,9 +6,9 @@ tags: ["this", "that", "post"]
 excerpt: "A preview of my first post"
 ---
 
-## Title
+## Everything
 
-Some text here.
+Everything in this world is matter. That's why a wrote that post.
 
 - Lorem ipsum first.
 - Lorem ipsum second.
