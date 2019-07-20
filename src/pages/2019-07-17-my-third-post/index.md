@@ -6,6 +6,6 @@ tags: ["new", "post"]
 excerpt: "A preview of my third post"
 ---
 
-## Everytime
+## Every single day
 
-Everytime I start to writing a new post, I decide to end it as soon as po
+Every single day, when I start to writing a new post, I decide to end it as soon as po

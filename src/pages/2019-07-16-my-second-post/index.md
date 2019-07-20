@@ -8,7 +8,7 @@ excerpt: "A preview of my second post"
 
 ## Everytime
 
-Every time I lose my mind when I think about this awesome post.
+Everytime I lose my mind when I think about this awesome post.
 
 This post is
 
