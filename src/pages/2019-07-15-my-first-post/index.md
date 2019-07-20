@@ -2,7 +2,7 @@
 path: "/first-post"
 date: "2019-07-15"
 title: "My First Post"
-tags: ["this", "that"]
+tags: ["this", "that", "post"]
 excerpt: "A preview of my first post"
 ---
 

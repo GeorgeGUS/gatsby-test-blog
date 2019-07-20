@@ -1,24 +1,14 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Header from "../components/Header"
-import styled from "styled-components"
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: Avenir, Arial, sans-serif;
-`
-const Row = styled.div`
-  margin-bottom: 1rem;
-`
+import { CenteredContainer, Row, Link } from "../components/UI-Kit"
 
 const Layout = ({ data }) => {
   const { edges } = data.allMarkdownRemark
   return (
     <div>
       <Header />
-      <Container>
+      <CenteredContainer>
         {edges.map(edge => {
           const { title, path } = edge.node.frontmatter
           return (
@@ -27,7 +17,10 @@ const Layout = ({ data }) => {
             </Row>
           )
         })}
-      </Container>
+        <Row>
+          <Link to={"./tags"}>Browse by tags</Link>
+        </Row>
+      </CenteredContainer>
     </div>
   )
 }
